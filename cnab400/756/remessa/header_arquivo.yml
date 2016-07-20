@@ -1,0 +1,99 @@
+# 756 = Sicoob
+
+banco:
+  pos: [1, 3]
+  picture: '9(03)'
+  default:  '756'
+
+lote_servico:
+  # 1 = Remessa
+  pos: [4, 7]
+  picture: '9(04)'
+  default:  '0000'
+
+tipo_registro:
+  pos: [8, 8]
+  picture: '9(01)'
+
+brancos01:
+  pos: [9, 17]
+  picture: 'X(09)'
+
+tipo_inscricao_empresa:
+  pos: [18, 18]
+  picture: '9(01)'
+  default:  '2'
+
+cnpj_empresa:
+  pos: [19, 32]
+  picture: '9(14)'
+
+brancos02:
+  pos: [33, 52]
+  picture: 'X(20)'
+
+agencia:
+  pos: [53, 57]
+  picture: '9(05)'
+
+agencia_dv:
+  pos: [58, 58]
+  picture: '9(01)'
+
+conta_corrente:
+  pos: [59, 70]
+  picture: '9(12)'
+
+conta_corrente_dv:
+  pos: [71, 71]
+  picture: '9(01)'
+
+brancos03:
+  pos: [72, 72]
+  picture: 'X(01)'
+
+nome_empresa:
+  pos: [73, 102]
+  picture: 'X(30)'
+
+nome_banco:
+  pos: [103, 132]
+  picture: 'X(30)'
+  default: 'SICOOB'
+
+brancos04:
+  pos: [133, 142]
+  picture: 'X(10)'
+
+codigo_remessa:
+  pos: [143, 143]
+  picture: '9(01)'
+  default: '1'
+
+data_geracao:
+  pos: [144, 151]
+  picture: '9(08)'
+  date_format: '%d%m%Y'
+
+hora_geracao:
+  pos: [152, 157]
+  picture: '9(06)'
+  date_format: '%H%i%s'
+
+sequencial_arquivo:
+  pos: [158, 163]
+  picture: '9(06)'
+
+layout_arquivo:
+  pos: [164, 166]
+  picture: '9(03)'
+  default: '081'
+
+densidade:
+  pos: [167, 171]
+  picture: '9(05)'
+  default: '00000'
+
+brancos05:
+  pos: [172, 240]
+  picture: 'X(069)'
